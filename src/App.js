@@ -8,7 +8,6 @@ import Logout from './Login/Logout';
 
 function App() {
 	const [loggedIn, setLoggedIn] = useState(false)
-	const [loggedOut, setLoggedOut] = useState(false)
 	const [signUP, signUPPortal] = useState(false)
 	const [currentUser, setCurrentUser] = useState('')
 
